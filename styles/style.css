@@ -1,0 +1,172 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/*Reset Css*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+   text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #DDA0DD;
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+main .conteudo {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.conteudo h1,
+h2 {
+    font-weight: 400;
+    color: #fff;
+}
+
+.conteudo h1 {
+    font-size: 60px;
+}
+
+.conteudo h2 {
+    font-size: 32px;
+}
+
+.lista-imagem {
+    list-style-type: none;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+
+}
+
+.lista-imagem li {
+    padding-left: 23px;
+    background: url('img/setinha.png') left center no-repeat;
+    background-size: 20px;
+    font-size: 22px;
+    color: #fff;
+    transition: .5s;
+}
+
+
+.lista-imagem li:hover {
+    margin-left: 15px;
+}
+
+
+button {
+    margin-top: 15px;
+    width: 135px;
+    height: 32px;
+    padding: 0 12px 0px 12px;
+    color: #fff;
+    background-color: #b643d3;
+    border: none;
+    text-align: center;
+    transition: .5s;
+}
+
+
+button:focus {
+    background-color: #7b358d;
+}
+
+
+button:hover {
+    transform: scale(1.1);
+}
+
+
+.ada-img {
+    border-radius: 128.5px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 170px;
+}
+
+
+section {
+    color: #fff;
+}
+
+
+.separacao {
+    display: flex;
+    justify-content: row;
+    gap: 30px;
+}
+
+
+section .texto {
+    max-width: 500px;
+    text-align: justify;
+    font-size: 20px;
+    padding: 25px;
+}
+
+dialog {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+    background-color: rgba(52, 52, 50, 0.749);
+    padding: 20px;
+    width: 80%; /* Defina o tamanho que desejar */
+    max-width: 600px; /* Ajuste o tamanho máximo */
+    border-radius: 10px;
+  }
+
+  dialog p {
+    color: #fff;
+    text-align: center;
+  }
+
+  dialog::backdrop{
+    background-color: #7b358d56;
+  }
+
+section figcaption {
+    text-align: center;
+    font-size: 32px;
+}
+
+.modal{
+display: flex;
+justify-content: center;
+align-content: center;
+
+}
+
+dialog {
+    background-color: rgba(52, 52, 50, 0.749);
+}
+
+footer{
+    padding:20px;
+}

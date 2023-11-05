@@ -1,0 +1,59 @@
+ /* Estilos para telas pequenas (dispositivos móveis) */
+ @media (max-width: 767px) {
+
+main,.conteudo{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.separacao{
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    padding:20px;
+}
+
+.ada-img {
+    width:300px;
+    height:380px;
+}
+}
+
+
+
+
+
+
+
+ 
+ /* Estilos para telas médias (tablets) */
+ @media (min-width: 768px) and (max-width: 1023px) {
+    main,.conteudo{
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    .separacao{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .container{
+        padding:20px;
+    }
+    
+    .ada-img {
+        width:300px;
+        height:380px;
+    }
+
+
+ }
